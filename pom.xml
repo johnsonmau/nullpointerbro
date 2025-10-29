@@ -9,11 +9,11 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.main</groupId>
-	<artifactId>dashboard</artifactId>
+	<artifactId>npb</artifactId>
 	<version>1.0</version>
 	<name>dashboard</name>
 	<packaging>war</packaging>
-	<description>Vulnerability Dashboard Application</description>
+	<description>nullpointerbro.com</description>
 	<url/>
 	<licenses>
 		<license/>
@@ -41,6 +41,10 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-logging</artifactId>
+		</dependency>
+		<dependency>
 			<groupId>org.glassfish</groupId>
 			<artifactId>jakarta.el</artifactId>
 			<version>4.0.2</version>
@@ -50,6 +54,10 @@
 			<artifactId>spring-boot-devtools</artifactId>
 			<scope>runtime</scope>
 			<optional>true</optional>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-thymeleaf</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
