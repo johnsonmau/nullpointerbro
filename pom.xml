@@ -81,7 +81,7 @@
 	</dependencies>
 
 	<build>
-		<finalName>nullpointerbro</finalName>
+		<finalName>home</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
