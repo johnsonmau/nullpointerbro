@@ -81,7 +81,7 @@
 	</dependencies>
 
 	<build>
-		<finalName>vulnerability-dashboard</finalName>
+		<finalName>nullpointerbro</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
