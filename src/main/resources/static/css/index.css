@@ -411,6 +411,7 @@ main {
 }
 
 .profile-pic {
+    opacity: 76%;
     width: 150px;
     height: 150px;
     border-radius: 50%;
