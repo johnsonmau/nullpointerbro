@@ -1,16 +1,3 @@
-// Newsletter form handling
-document.getElementById('newsletterForm').addEventListener('submit', function(e) {
-    e.preventDefault();
-    const email = this.querySelector('input[type="email"]').value;
-
-    // Replace this with your actual newsletter signup logic
-    // Could be Mailchimp, ConvertKit, or a simple backend endpoint
-    console.log('Newsletter signup:', email);
-
-    alert('Thanks for signing up! We\'ll notify you when we launch. 🚀');
-    this.reset();
-});
-
 // Add smooth scroll behavior
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
