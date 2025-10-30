@@ -48,7 +48,14 @@ body {
     overflow: hidden;
     z-index: 0;
 }
-
+.affiliate-image {
+    opacity: 90%;
+    width: 50%;
+    height: 50%;
+    object-fit: fill;
+    border: dotted 1px #ff8c42;
+    margin-bottom: 10px;
+}
 .grid-background::before,
 .grid-background::after {
     content: '';
