@@ -26,10 +26,12 @@
 }
 
 body {
-    font-family: 'Roboto';
-    background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 20%, #0d1b1e 40%, #1c3334 60%, #0a0a0a 100%);
-    background-size: 400% 400%;
-    animation: gradient-shift 15s ease infinite;
+    font-family: "Doto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-variation-settings: "ROND" 0;
+    background: linear-gradient(135deg, #0a1612 0%, #122420 20%, #0d5049 40%, #1a6e5f 60%, #0a1612 100%);    animation: gradient-shift 15s ease infinite;
     color: #ffffff;
     line-height: 1.6;
     overflow-x: hidden;
