@@ -31,7 +31,7 @@ body {
     font-weight: 900;
     font-style: normal;
     font-variation-settings: "ROND" 0;
-    background: linear-gradient(135deg, #0a1612 0%, #122420 20%, #0d5049 40%, #1a6e5f 60%, #0a1612 100%);    animation: gradient-shift 15s ease infinite;
+    background: linear-gradient(135deg, #2e1a0a 0%, #5c3d1f 20%, #d96704 40%, #ff8c42 60%, #2e1a0a 100%);
     color: #ffffff;
     line-height: 1.6;
     overflow-x: hidden;
