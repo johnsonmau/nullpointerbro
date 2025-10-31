@@ -52,7 +52,7 @@ body {
     opacity: 90%;
     width: 50%;
     height: 50%;
-    object-fit: fill;
+    object-fit: cover;
     border: dotted 1px #ff8c42;
     margin-bottom: 10px;
 }
@@ -231,6 +231,28 @@ main {
     margin-bottom: 3rem;
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2),
     inset 0 2px 0 rgba(255, 255, 255, 0.3);
+    max-height: 600px; /* Adjust this value as needed */
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.affiliate-section::-webkit-scrollbar {
+    width: 6px; /* Narrower scrollbar */
+}
+
+.affiliate-section::-webkit-scrollbar-track {
+    background: transparent; /* Invisible track */
+    margin: 15px 0; /* Adds gap at top/bottom for rounded corners */
+}
+
+.affiliate-section::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.2); /* Semi-transparent */
+    border-radius: 10px; /* Rounded scrollbar */
+    transition: background 0.2s;
+}
+
+.affiliate-section::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 0, 0, 0.4); /* Darker on hover */
 }
 
 .affiliate-title {
