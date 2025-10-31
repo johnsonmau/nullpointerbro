@@ -19,8 +19,10 @@ public class UIControllers {
         String userAgent = request.getHeader("User-Agent");
         String referer = request.getHeader("Referer");
 
-        // Log or save to database
-        log.info("Visitor: IP={}, UA={}, Referer={}", ip, userAgent, referer);
+        if (!userAgent.contains("Uptime-Kuma")){
+            // Log or save to database
+            log.info("Visitor: IP={}, User Agent={}, Referer={}", ip, userAgent, referer);
+        }
 
         return "index";
     }
