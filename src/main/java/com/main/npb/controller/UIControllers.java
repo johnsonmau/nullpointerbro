@@ -13,6 +13,16 @@ public class UIControllers {
 
     private static final Logger log = LoggerFactory.getLogger(UIControllers.class);
 
+    @GetMapping("/privacy")
+    public String privacyPage(){
+        return "privacy";
+    }
+
+    @GetMapping("/terms")
+    public String termsPage(){
+        return "terms";
+    }
+
     @GetMapping("/")
     public String landingPage(HttpServletRequest request) {
 
